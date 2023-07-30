@@ -1,0 +1,50 @@
+{
+  "name": "kalsu",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:7000",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^14.4.3",
+    "bulma": "^0.9.4",
+    "concurrently": "^8.2.0",
+    "dotenv": "^16.3.1",
+    "file-saver": "^2.0.5",
+    "generate-avatar": "^1.4.10",
+    "nodemon": "^3.0.1",
+    "react": "^18.2.0",
+    "react-bulma-components": "^4.1.0",
+    "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.3",
+    "react-scripts": "^4.0.0",
+    "simple-peer": "^9.11.1",
+    "socket.io-client": "^4.7.1",
+    "web-vitals": "^3.4.0"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "scripts": {
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
